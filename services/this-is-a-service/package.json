@@ -1,0 +1,24 @@
+{
+  "name": "this-is-a-service",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "kinvey-flex-scripts": "0.3.0"
+  },
+  "dependencies": {
+    "kinvey-flex-sdk": "^3.2.1"
+  },
+  "scripts": {
+    "start": "kinvey-flex-scripts start",
+    "build": "kinvey-flex-scripts build",
+    "deploy": "kinvey-flex-scripts deploy"
+  },
+  "eslintConfig": {
+    "extends": "kinvey-flex-service"
+  },
+  "browserslist": [
+    "node 6",
+    "node 8",
+    "node 10"
+  ]
+}
